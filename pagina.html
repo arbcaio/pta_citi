@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 18px; /* Increased base font size */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h1 {
+            font-size: 2.5em; /* Larger heading */
+        }
+        h2 {
+            font-size: 2em; /* Larger subheadings */
+        }
+        p, li {
+            font-size: 1.2em; /* Larger paragraph and list text */
+        }
+        .contact a {
+            font-size: 1.2em; /* Larger links */
+        }
+        header p {
+            text-align: center;
+        }
+        header {
+            width: 100%;
+            min-height: 200px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  /* This will center the content horizontally */
+        }
+
+        header h1 {
+            text-align: center;  /* This ensures the text itself is centered */
+            width: 100%;  /* Makes sure the h1 takes full width */
+        }
+        /* Adding style for custom list items */
+        li {
+            list-style-type: none;
+            text-align: left;
+            margin-left: 3em;
+        }
+        li:before {
+            content: "→ ";
+            color: #1e90ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+        <p>Desenvolvedor & Estudante de Engenharia da Computação</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Caio, sou do Piauí e estou cursando Engenharia da Computação. Adoro jogos, e atualmente jogo um jogo chamado Noita. Além da programação, gosto bastante de musculação e pratico jiu jitsu!</p>
+        </section>
+
+        <section>
+            <h2>Habilidades Pessoais</h2>
+            <ul>
+                <li>Proatividade</li>
+                <li>Comunicação</li>
+                <li>Respeito</li>
+                <li>Reconhecimento e valorização</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conhecimentos Técnicos</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Haskell</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML, CSS, React</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Meu contato!</h2>
+            <p><a href="https://github.com/arbcaio">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/caio-henrique-araujo-braga-20770b300/">LinkedIn</a></p>
+        </section>
+    </div>
+</body>
+</html>

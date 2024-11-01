@@ -1,0 +1,21 @@
+/* Two shades of blue theme */
+body {
+    background-color: #1d219f; /* Light blue background */
+}
+
+header {
+    background-color: #230f70; /* Darker blue header */
+}
+
+.contact {
+    background-color: #1e90ff; /* Matching header blue */
+    color: white;
+}
+
+.contact a {
+    color: #1e1353; /* Light blue links for contrast */
+}
+
+h1, h2 {
+    color: #01070e; /* Darker blue headings */
+}
